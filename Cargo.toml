@@ -1,0 +1,17 @@
+[package]
+name = "hestia-agent"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+salvo = { version = "*", features = ["quinn","concurrency-limiter","affix-state"] }
+tokio = { version = "*", features = ["macros"] }
+tracing = { version = "*", features = [] }
+tracing-subscriber = { version = "*", features = [] }
+rcgen = { version = "*", features = [] }
+dotenv = { version = "*", features = [] }
+serde = { version = "*", features = ["derive"] }
+zstd = { version = "*", features = [] }
+tar = { version = "*", features = [] }
+walkdir = { version = "*", features = [] }
+chrono = { version = "*", features = [] }
