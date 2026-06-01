@@ -1218,6 +1218,7 @@ dependencies = [
  "serde",
  "tar",
  "tokio",
+ "tokio-util",
  "tracing",
  "tracing-subscriber",
  "walkdir",
