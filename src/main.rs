@@ -7,11 +7,6 @@ mod models;
 mod error;
 mod services;
 
-#[handler]
-async fn hello() -> &'static str {
-    "Hello World"
-}
-
 #[tokio::main]
 async fn main() {
     let _ = dotenv::dotenv();

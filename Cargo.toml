@@ -13,6 +13,8 @@ rcgen = { version = "*", features = [] }
 dotenv = { version = "*", features = [] }
 serde = { version = "*", features = ["derive"] }
 zstd = { version = "*", features = [] }
-tar = { version = "*", features = [] }
 walkdir = { version = "*", features = [] }
 chrono = { version = "*", features = [] }
+rayon = { version = "*", features = [] }
+astral-tokio-tar = { version = "*", features = [] }
+async-compression = { version = "*", features = ["tokio", "zstd"] }
